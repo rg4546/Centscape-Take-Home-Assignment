@@ -1,0 +1,11 @@
+{
+  "name": "centscape-unified-wishlist",
+  "private": true,
+  "workspaces": [
+    "app",
+    "server"
+  ],
+  "scripts": {
+    "verify": "npm -w server run test && npm -w app run typecheck"
+  }
+}

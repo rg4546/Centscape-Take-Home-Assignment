@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Centscape",
+    "slug": "centscape",
+    "scheme": "centscape",
+    "extra": {
+      "serverUrl": "http://localhost:4000"
+    },
+    "ios": {
+      "bundleIdentifier": "com.centscape.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.centscape.app",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "data": [
+            {
+              "scheme": "centscape",
+              "host": "add"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    }
+  }
+}

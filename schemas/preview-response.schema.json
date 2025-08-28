@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PreviewResponse",
+  "type": "object",
+  "required": [
+    "title",
+    "image",
+    "price",
+    "currency",
+    "siteName",
+    "sourceUrl"
+  ],
+  "properties": {
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "image": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "price": {
+      "type": [
+        "number",
+        "null"
+      ]
+    },
+    "currency": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "siteName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri"
+    }
+  }
+}
